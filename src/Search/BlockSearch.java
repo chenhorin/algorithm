@@ -13,6 +13,8 @@ public class BlockSearch {
 
     /*
     * 1.索引表怎么均分成块
+    * 2.查找与排序都和数据结构紧密联系在了一起
+    *
     * */
     public static int blockSearch(int[] st, int key, int m) {
         int[] index = new int[st.length / m];
